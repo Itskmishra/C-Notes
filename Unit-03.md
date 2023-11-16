@@ -1,4 +1,4 @@
-## Variables
+# Variables
 To create a variable, specify the **type** and assign it a **value.** You can also **declare a variable without assigning the value**, and **assign the value later**.
 
 
@@ -12,7 +12,7 @@ To create a variable, specify the **type** and assign it a **value.** You can al
 ![image](https://github.com/Itskmishra/C-Notes/assets/141756495/3ee4ec24-025c-4ec0-a4b0-a73c200d1aa3)
 
 
-### int
+## int
 stores integers (whole numbers), without decimals, such as `123` or `-123`.
 
 ```text-x-csrc
@@ -25,7 +25,7 @@ my_number2 = 15;
 ```
 
 
-### float
+## float
 
 stores floating point numbers, with decimals, such as `19.9` or `-19.9`.
 
@@ -37,7 +37,7 @@ myFloatNum2 = 5.1
 ```
 
 
-### double
+## double
 
 stores double floating point numbers, with large values after decimals, such as `19.995165` or `-19.95165`.
 
@@ -49,7 +49,7 @@ myDoubleNum2 = 5.1512
 ```
 
 
-### char
+## char
 
 stores a single character in the variable with single quotes, such as `A` or `c`.
 
@@ -60,7 +60,7 @@ char myChar2;
 myChar2 = 'c'
 ```
 
-### Constants
+## Constants
 
 `const` is used to define a variable that cannot be changed after defined.
 
