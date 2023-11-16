@@ -1,0 +1,47 @@
+# Conditions
+
+## If…Else
+
+`if` statement to specify a block of code to be executed if a condition is `true`. `else` statement to specify a block of code to be executed if the condition is `false`.
+
+```text-x-csrc
+if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
+```
+
+`else if` statement to specify a new condition if the first condition is `false`. 
+
+```text-x-csrc
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is 	false
+}
+```
+
+## Switch
+
+Instead of writing **many** `if..else` statements, you can use the `switch` statement. The `switch` statement selects one of many code blocks to be executed:
+
+```text-x-csrc
+switch(expression) {
+  case x:
+    // code block
+  case y:
+    // code block
+  default:
+    // code block
+}
+```
+
+This is how it works:
+
+*   The `switch` expression is evaluated once
+*   The value of the expression is compared with the values of each `case`
+*   If there is a match, the associated block of code is executed
+*   The `default` statement is optional, and specifies some code to run if there is no case match
