@@ -60,3 +60,13 @@ char myChar2;
 myChar2 = 'c'
 ```
 
+### Constants
+
+`const` is used to define a variable that cannot be changed after defined.
+
+```text-x-csrc
+const int myNum = 15; //This variable cannot be changed after this.
+```
+
+We cannot define a const and assign its value after. 
+
