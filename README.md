@@ -44,3 +44,7 @@ C is very versatile; it can be used in both applications and technologies
 * **Unit-13**: Functions
 * **Unit-14**: Structure
 * **Unit-15**: Enums
+
+## Exercise
+
+* **Basic Calculator** : Simple calculator written in c.
